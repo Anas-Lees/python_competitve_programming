@@ -3,7 +3,7 @@ def calculate_points(gry):
     for i in range(10):
         for j in range(10):
             if gry[i][j] == 'X':
-                total += min(i + 1, j + 1, 10 - i, 10 - j)
+                total += min(i + 1, j + 1, 10 - i, 10 - j)#yoo its rewind time
     return total
 
 
